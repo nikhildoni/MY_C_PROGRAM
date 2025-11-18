@@ -1,0 +1,9 @@
+#include<stdio.h>
+int jaiballia(){
+    printf("how are you ballia\n");
+    printf("jaijai ballia\n");
+    printf("big fan of ballia\n");
+}
+int main(){
+    jaiballia();
+}    
