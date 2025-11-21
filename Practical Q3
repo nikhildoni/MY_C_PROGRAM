@@ -1,0 +1,39 @@
+#include <stdio.h>
+int main() {
+    int choice;
+    int inputID;
+    printf("----- KYC Verification System -----\n");
+    printf("1. PAN Number\n");
+    printf("2. AADHAR Number\n");
+    printf("3. APAAR ID\n");
+    printf("4. Driving License\n");
+    printf("5. Passport\n");
+    printf("Enter your choice (1-5): ");
+    scanf("%d", &choice);
+    printf("Enter the Unique ID Number: ");
+    switch (choice) {
+        case 1: //PAN
+        printf("pan verified\n");
+        break;
+        
+        case 2: //AADHAR 
+        printf("aadhar verified\n");
+        break;
+        
+        case 3: //APAAR
+        printf("apaar verified\n");
+        break;
+        
+        case 4: //Drivimng License
+        printf("driving license\n");
+        break;
+        
+        case 5: //passport verified
+        printf("passport verified\n");
+        break;
+        
+        default:
+        printf("not verified\n");
+}
+return 0;
+}
